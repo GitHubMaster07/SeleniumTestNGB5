@@ -21,7 +21,7 @@ public class HRMTest {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         loginPage.login("Admin","admin123");
     }
-
+    // Just added some comment for checking commit functionality.
     @Test
     public void test1(){
         SeleniumUtils.click(driver, commonPage.directory);
